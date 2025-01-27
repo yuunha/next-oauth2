@@ -1,5 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faThumbsUp, faPerson } from "@fortawesome/free-solid-svg-icons";
+import { Button } from "@/components/ui/button"
+
 
 export default function Page() {
     return (
@@ -14,7 +16,9 @@ export default function Page() {
                     icon={faPerson}
                     className="fa-fw text-4xl text-[#af0000] hover:text-[#000000]"
                 />
+                <Button variant="outline">Button</Button>
             </div>
+
         </div>
     );
 }
